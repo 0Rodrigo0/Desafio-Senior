@@ -45,7 +45,7 @@ Tabela pedido: localhost:8080/pedido
 Tabela itensPedido: localhost:8080/itensPedido
 
 # POST
-Tabela produtoServico: localhost:8080/produtoServico/cadastra
+Tabela produtoServico: localhost:8080/produtoServico/cadastra</br>
 ![image](https://user-images.githubusercontent.com/87920248/169725214-460bf611-afc9-4f34-bdfc-99614fec3329.png)
 
 Tabela pedido: localhost:8080/pedido/cadastra
