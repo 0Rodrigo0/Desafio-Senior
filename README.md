@@ -138,6 +138,20 @@ Tabela itensPedido: localhost:8080/itensPedido/<id do objeto>
     }
 }
 
+  </br>
+  </br>
+  </br>
+  
+  
+# Contatos:
+
+WhatsApp: 51 984065069.
+
+E-mail: rodrigobl1@yahoo.com.br.
+
+Linkedin: https://www.linkedin.com/in/rodrigo-blw/
+
+°•._______{°-°}________.•°
   
 ## Licença
 
