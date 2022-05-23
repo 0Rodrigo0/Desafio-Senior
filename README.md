@@ -13,7 +13,7 @@ Deverá ser desenvolvido um cadastro (Create/Read/Update/Delete/List) para as se
 1. A prova deverá ser entregue completa (todos os itens resolvidos).
 2. O código não poderá ter erros de compilação.
 3. Deverá haver uma documentação mínima de como executar o projeto e suas funcionalidades.
-- [Compras](https://github.com/0Rodrigo0/Projeto-1-Modulo-2---JavaScript-Ecma6) - Link do Projeto.
+- [Compras](https://github.com/0Rodrigo0/Desafio-Senior/tree/master) - Link do Projeto.
 
 ## Entrega
 
