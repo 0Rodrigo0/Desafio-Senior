@@ -20,7 +20,7 @@ Deverá ser desenvolvido um cadastro (Create/Read/Update/Delete/List) para as se
 A prova deverá ser entregue completa (todos os itens resolvidos). Deverão ser criados testes automatizados. O código não poderá ter erros de compilação. Deverá haver uma documentação mínima de como executar o projeto e suas funcionalidades.
 
 ## Tecnologias utilizadas
-• Banco de dados PostgreSQL 6.7;
+• Banco de dados PostgreSQL 6.7</br>
 • Java 8+;
 • Maven ;
 • Spring 2.7.0;
