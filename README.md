@@ -72,13 +72,8 @@ Tabela itensPedido: localhost:8080/itensPedido/<id do objeto><br/>
 
 
   
-# Abaixo se vocÊ editar este arquivo consegue copiar os parametros do Postman
+# Edite o arquivo para copiar os parametros
   
-
-# GET
-Tabela produtoServico: localhost:8080/produtoServico
-Tabela pedido: localhost:8080/pedido
-Tabela itensPedido: localhost:8080/itensPedido
 
 # POST
 Tabela produtoServico: localhost:8080/produtoServico/cadastra
