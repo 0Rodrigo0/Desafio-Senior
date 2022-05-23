@@ -48,28 +48,12 @@ Tabela itensPedido: localhost:8080/itensPedido
 Tabela produtoServico: localhost:8080/produtoServico/cadastra</br>
 ![image](https://user-images.githubusercontent.com/87920248/169725214-460bf611-afc9-4f34-bdfc-99614fec3329.png)
 
-Tabela pedido: localhost:8080/pedido/cadastra
-{
-    "valor": "",
-    "total": "",
-    "desconto": 10.0,
-    "produtoServico":{
-        "id": "8d3b9a6a-c92d-469d-a0ba-abae3a97e44e",
-        "nome": "Massagem",
-        "valor": 100.0,
-        "tipo": 2 // tipo 1 = produto | tipo 2 = serviço
-    }, ...
-}
-Tabela itensPedido: localhost:8080/itensPedido/cadastra
-{
-    "nome": "Pedido1",
-    "pedido":{
-        "id": "ef7bf71b-676b-482f-ae5a-e0a133528ea0"
-    },
-    "produtoServico":{
-        "id": "1861637b-e958-43a5-ae07-adbc39f8ceaf"
-    }
-}
+Tabela pedido: localhost:8080/pedido/cadastra</br>
+![image](https://user-images.githubusercontent.com/87920248/169725301-95b79f14-4d83-45fa-a253-b2c17d6bda19.png)
+
+Tabela itensPedido: localhost:8080/itensPedido/cadastra</br>
+![image](https://user-images.githubusercontent.com/87920248/169725329-4f4cd6a2-2ea5-43dd-8f3a-54dab6f934a5.png)
+
 
 # PUT
 Tabela produtoServico: localhost:8080/produtoServico/<id do objeto>
