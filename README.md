@@ -70,7 +70,11 @@ Tabela itensPedido: localhost:8080/itensPedido/<id do objeto><br/>
   Tabela pedido: localhost:8080/pedido/<id do objeto></br>
   Tabela itensPedido: localhost:8080/itensPedido/<id do objeto></br>
 
-
+</br>
+</br>
+</br>
+</br>
+</br>
   
 # Edite o arquivo para copiar os parametros
   
