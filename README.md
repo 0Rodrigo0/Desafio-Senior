@@ -39,12 +39,12 @@ Para a execução e teste utilizar o Postman Version 9.19.0.
 
 ## Parametros para o Postman
 
-# GET
+## GET
 Tabela produtoServico: localhost:8080/produtoServico</br>
 Tabela pedido: localhost:8080/pedido</br>
 Tabela itensPedido: localhost:8080/itensPedido</br>
 
-# POST
+## POST
 Tabela produtoServico: localhost:8080/produtoServico/cadastra</br>
 ![image](https://user-images.githubusercontent.com/87920248/169725214-460bf611-afc9-4f34-bdfc-99614fec3329.png)
 
@@ -55,7 +55,7 @@ Tabela itensPedido: localhost:8080/itensPedido/cadastra</br>
 ![image](https://user-images.githubusercontent.com/87920248/169725329-4f4cd6a2-2ea5-43dd-8f3a-54dab6f934a5.png)
 
 
-# PUT
+## PUT
 Tabela produtoServico: localhost:8080/produtoServico/<id do objeto></br>
 ![image](https://user-images.githubusercontent.com/87920248/169725382-b418a31c-0eb0-4eb3-b5ec-60cf1a5767c2.png)
 
@@ -65,7 +65,7 @@ Tabela pedido: localhost:8080/pedido/<id do objeto></br>
 Tabela itensPedido: localhost:8080/itensPedido/<id do objeto><br/>
 ![image](https://user-images.githubusercontent.com/87920248/169725435-4403811d-9455-47e8-ab71-b88c009701f8.png)
 
-# DELETE
+## DELETE
   Tabela produtoServico: localhost:8080/produtoServico/<id do objeto></br>
   Tabela pedido: localhost:8080/pedido/<id do objeto></br>
   Tabela itensPedido: localhost:8080/itensPedido/<id do objeto></br>
@@ -79,7 +79,7 @@ Tabela itensPedido: localhost:8080/itensPedido/<id do objeto><br/>
 # Edite o arquivo para copiar os parametros
   
 
-# POST
+## POST
 Tabela produtoServico: localhost:8080/produtoServico/cadastra
 {
     "nome": "Massagem",
@@ -109,7 +109,7 @@ Tabela itensPedido: localhost:8080/itensPedido/cadastra
     }
 }
 
-# PUT
+## PUT
 Tabela produtoServico: localhost:8080/produtoServico/<id do objeto>
 {
     "nome": "Alterado",
