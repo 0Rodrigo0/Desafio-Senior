@@ -40,9 +40,9 @@ Para a execução e teste utilizar o Postman Version 9.19.0.
 ## Parametros para o Postman
 
 # GET
-Tabela produtoServico: localhost:8080/produtoServico
-Tabela pedido: localhost:8080/pedido
-Tabela itensPedido: localhost:8080/itensPedido
+Tabela produtoServico: localhost:8080/produtoServico</br>
+Tabela pedido: localhost:8080/pedido</br>
+Tabela itensPedido: localhost:8080/itensPedido</br>
 
 # POST
 Tabela produtoServico: localhost:8080/produtoServico/cadastra</br>
@@ -66,11 +66,80 @@ Tabela itensPedido: localhost:8080/itensPedido/<id do objeto><br/>
 ![image](https://user-images.githubusercontent.com/87920248/169725435-4403811d-9455-47e8-ab71-b88c009701f8.png)
 
 # DELETE
+  Tabela produtoServico: localhost:8080/produtoServico/<id do objeto></br>
+  Tabela pedido: localhost:8080/pedido/<id do objeto></br>
+  Tabela itensPedido: localhost:8080/itensPedido/<id do objeto></br>
+
+
+  
+# Abaixo se vocÊ editar este arquivo consegue copiar os parametros do Postman
+  
+
+# GET
+Tabela produtoServico: localhost:8080/produtoServico
+Tabela pedido: localhost:8080/pedido
+Tabela itensPedido: localhost:8080/itensPedido
+
+# POST
+Tabela produtoServico: localhost:8080/produtoServico/cadastra
+{
+    "nome": "Massagem",
+    "valor": 100,
+    "tipo": "2" //tipo 1 = produto | tipo 2 = serviço
+}
+Tabela pedido: localhost:8080/pedido/cadastra
+{
+    "valor": "",
+    "total": "",
+    "desconto": 10.0,
+    "produtoServico":{
+        "id": "8d3b9a6a-c92d-469d-a0ba-abae3a97e44e",
+        "nome": "Massagem",
+        "valor": 100.0,
+        "tipo": 2 // tipo 1 = produto | tipo 2 = serviço
+    }, ...
+}
+Tabela itensPedido: localhost:8080/itensPedido/cadastra
+{
+    "nome": "Pedido1",
+    "pedido":{
+        "id": "ef7bf71b-676b-482f-ae5a-e0a133528ea0"
+    },
+    "produtoServico":{
+        "id": "1861637b-e958-43a5-ae07-adbc39f8ceaf"
+    }
+}
+
+# PUT
 Tabela produtoServico: localhost:8080/produtoServico/<id do objeto>
+{
+    "nome": "Alterado",
+    "valor": 100.0,
+    "tipo": 2 // tipo 1 = produto | tipo 2 = serviço
+}
 Tabela pedido: localhost:8080/pedido/<id do objeto>
+{
+    "valor": 100.0,
+    "total": 80.0,
+    "desconto": 20.0,
+    "produtoServico": {
+        "id": "3db70a41-00a3-455a-acde-270fbb03d7c5",
+        "nome": "jump",
+        "valor": 100.0,
+        "tipo": 2 // tipo 1 = produto | tipo 2 = serviço
+    },
+}
 Tabela itensPedido: localhost:8080/itensPedido/<id do objeto>
+{
+    "valor": 500.0,
+    "total": 500.0,
+    "desconto": 1000.0,
+    "produtoServico": {
+        "id": "a9c4c442-10a2-49e7-9d27-cac2c91c2db4"
+    }
+}
 
-
+  
 ## Licença
 
 MIT
