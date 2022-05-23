@@ -35,7 +35,7 @@ Runtime version: 11.0.14.1+1-b2043.25 amd64, VM: OpenJDK 64-Bit Server VM by Jet
 
 Necessário a instalação do PostgreSQL, e a criação da database ERP. A senha do banco deve ser 123456 e o usuário postgres.
 
-Para a execução e teste utilizar o Postman Version 9.19.0.
+Para a execução de testes indicado Postman Version 9.19.0.
 
 ## Parametros para o Postman
 
