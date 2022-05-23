@@ -56,33 +56,14 @@ Tabela itensPedido: localhost:8080/itensPedido/cadastra</br>
 
 
 # PUT
-Tabela produtoServico: localhost:8080/produtoServico/<id do objeto>
-{
-    "nome": "Alterado",
-    "valor": 100.0,
-    "tipo": 2 // tipo 1 = produto | tipo 2 = serviço
-}
-Tabela pedido: localhost:8080/pedido/<id do objeto>
-{
-    "valor": 100.0,
-    "total": 80.0,
-    "desconto": 20.0,
-    "produtoServico": {
-        "id": "3db70a41-00a3-455a-acde-270fbb03d7c5",
-        "nome": "jump",
-        "valor": 100.0,
-        "tipo": 2 // tipo 1 = produto | tipo 2 = serviço
-    },
-}
-Tabela itensPedido: localhost:8080/itensPedido/<id do objeto>
-{
-    "valor": 500.0,
-    "total": 500.0,
-    "desconto": 1000.0,
-    "produtoServico": {
-        "id": "a9c4c442-10a2-49e7-9d27-cac2c91c2db4"
-    }
-}
+Tabela produtoServico: localhost:8080/produtoServico/<id do objeto></br>
+![image](https://user-images.githubusercontent.com/87920248/169725382-b418a31c-0eb0-4eb3-b5ec-60cf1a5767c2.png)
+
+Tabela pedido: localhost:8080/pedido/<id do objeto></br>
+![image](https://user-images.githubusercontent.com/87920248/169725411-9c4e2c0b-dcba-481c-bab8-cc99c1ffbe83.png)
+
+Tabela itensPedido: localhost:8080/itensPedido/<id do objeto><br/>
+![image](https://user-images.githubusercontent.com/87920248/169725435-4403811d-9455-47e8-ab71-b88c009701f8.png)
 
 # DELETE
 Tabela produtoServico: localhost:8080/produtoServico/<id do objeto>
